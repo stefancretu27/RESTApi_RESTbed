@@ -1,0 +1,7 @@
+curl -v -X POST 'http://localhost:8899/resource' -H 'Content-Type: application/json' -d'{"Id":1, "Name":"FirstResource","Qty":1}'
+
+curl -v -X GET 'http://localhost:8899/resource' -H 'Content-Type: application/json'
+
+curl -v -X PUT 'http://localhost:8899/resource' -H 'Content-Type: application/json' -d'{"Id":1, "Name":"FirstResourceChanged","Qty":5}'
+
+curl -v -X DELETE 'http://localhost:8899/resource' -H 'Content-Type: application/json'
